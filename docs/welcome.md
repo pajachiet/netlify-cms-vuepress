@@ -1,7 +1,5 @@
 ---
-title: Welcome to the VuePress + Netlify Example 
+title: Bienvenue sur ce test de VuePress + Netlify pour la documentation SNDS 
 ---
 
-## Netlify
-
-## Vuepres
+Le test est en cours
