@@ -20,7 +20,7 @@ module.exports = {
     description: 'Netlify + VuePress',
     themeConfig: {
       docsDir: 'docs',
-      repo: 'toshilow/netlify-cms-vuepress',
+      repo: 'pajachiet/netlify-cms-vuepress',
       sidebar: sb,
       lastUpdated: 'Last Updated'
     }
