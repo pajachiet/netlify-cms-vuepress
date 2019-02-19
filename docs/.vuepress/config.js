@@ -12,21 +12,32 @@ module.exports = {
         repo: 'pajachiet/netlify-cms-vuepress',
         sidebar: [
             {
-                title: 'DCIRS',
+                title: 'Production des données',
                 children: [
-                    ['/DCIRS/', 'Le produit DCIRS'],
-                    ['/DCIRS/NS_BIO_F', 'NS_BIO_F'],
-                    '/DCIRS/NS_PRS_F'
+                    '/production'
                 ]
             },
             {
-                title: 'Commun DCIR et DCIRS',
+                title: 'Produits',
                 children: [
-                    ['/DCIR_DCIRS/DA_PRA_R', 'DA_PRA_R'],
-                    '/DCIR_DCIRS/IR_IMB_R'
-                ]
+                    {
+                        title: 'DCIRS',
+                        children: [
+                            ['/DCIRS/', 'Le produit DCIRS'],
+                            ['/DCIRS/NS_BIO_F', 'NS_BIO_F'],
+                            '/DCIRS/NS_PRS_F'
+                        ]
+                    },
+                    {
+                        title: 'Commun DCIR et DCIRS',
+                        children: [
+                            ['/DCIR_DCIRS/DA_PRA_R', 'DA_PRA_R'],
+                            '/DCIR_DCIRS/IR_IMB_R'
+                        ]
 
-            }
+                    }
+                ]
+            },
         ],
         sidebarDepth: 0,
         lastUpdated: 'Last Updated'
