@@ -14,16 +14,17 @@ module.exports = {
             {
                 title: 'DCIRS',   // required
                 path: '/DCIRS/',      // optional, which should be a absolute path.
+                sidebarDepth: 0,
                 children: [
-                    '/DCIRS/',
+                    ['/DCIRS/', 'DCIR+S'],
                     '/DCIRS/NS_BIO_F.md',
                     '/DCIRS/NS_PRS_F.md'
                 ]
             },
             {
-                title: 'DCIR_DCIRS',
+                title: 'Commun DCIR et DCIRS',
+                sidebarDepth: 0,
                 children: [
-                    '/DCIR_DCIRS/',
                     '/DCIR_DCIRS/DA_PRA_R.md',
                     '/DCIR_DCIRS/IR_IMB_R.md'
                 ]

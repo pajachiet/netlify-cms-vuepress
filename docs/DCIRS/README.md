@@ -1,3 +1,5 @@
 ---
-title: Tables associées présentes dans le DCIR et le DCIRS 
+title: Le DCIRS 
 ---
+
+Le DCIRS est un DCIR Simplifié
