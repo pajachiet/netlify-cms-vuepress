@@ -3,25 +3,33 @@ const path = require('path');
 
 var dirpath = "./docs"
 
-// generate sidenav order by update time
-var sb = fs.readdirSync(dirpath).filter(f => {
-    return f.match(/\.(md)$/i) && f !== 'README.md'
-}).map(f => {
-  return {
-    path:  '/' + f,
-    mtime: fs.statSync(dirpath +  '/' + f).mtime
-  }
-})
-.sort((a, b) => a.mtime - b.mtime)
-.map(f => f.path)
 
 module.exports = {
     title: 'Documentation du SNDS',
     description: 'test de Netlify + VuePress',
     themeConfig: {
-      docsDir: 'docs',
-      repo: 'pajachiet/netlify-cms-vuepress',
-      sidebar: sb,
-      lastUpdated: 'Last Updated'
+        docsDir: 'docs',
+        repo: 'pajachiet/netlify-cms-vuepress',
+        sidebar: [
+            {
+                title: 'DCIRS',   // required
+                path: '/DCIRS/',      // optional, which should be a absolute path.
+                children: [
+                    '/',
+                    '/NS_BIO_F',
+                    '/NS_PRS_F'
+                ]
+            },
+            {
+                title: 'DCIR_DCIRS',
+                children: [
+                    '/',
+                    'DA_PRA_R',
+                    'IR_IMB_R'
+                ]
+
+            }
+        ],
+        lastUpdated: 'Last Updated'
     }
-  }
+}
