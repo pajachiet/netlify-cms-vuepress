@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 ## DA_PRA_R
 
 - Valeurs manquantes : `""`
