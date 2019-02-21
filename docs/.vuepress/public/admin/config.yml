@@ -8,12 +8,10 @@ media_folder: "docs/.vuepress/public/upload"
 public_folder: "/upload"
  
 collections:
-  - name: "doc"
-    label: "Doc"
-    folder: "docs"
+  - name: "tutoriel"
+    folder: "docs/tutoriel"
     create: true
     slug: "{{slug}}"
-    filter: {field: "home", value: "false"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

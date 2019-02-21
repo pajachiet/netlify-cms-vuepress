@@ -2,7 +2,7 @@
 home: true
 heroImage: https://www.snds.gouv.fr/img/logoSNDS.jpg
 actionText: Aller à la documentation →
-actionLink: /production
+actionLink: /tutoriel/production
 features:
 - title: Documentation collaborative 
   details: Vous pouvez éditer les pages

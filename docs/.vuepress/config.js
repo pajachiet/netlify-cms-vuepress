@@ -21,8 +21,7 @@ module.exports = {
                 'IR_IMB_R'
             ],
             '/': [
-                '',
-                'production',
+                '/tutoriel/production',
                 '/produits/'
             ],
         },
