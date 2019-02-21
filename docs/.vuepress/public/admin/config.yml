@@ -9,6 +9,7 @@ public_folder: "/upload"
  
 collections:
   - name: "tutoriel"
+    label: "Tutoriel"
     folder: "docs/tutoriel"
     create: true
     slug: "{{slug}}"
