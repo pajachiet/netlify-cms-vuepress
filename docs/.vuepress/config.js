@@ -11,18 +11,19 @@ module.exports = {
         docsDir: 'docs',
         repo: 'pajachiet/netlify-cms-vuepress',
         sidebar: {
-            '/DCIRS/': [
+            '/produits/DCIRS/': [
                 ['', 'Le produit DCIRS'],
                 ['NS_BIO_F', 'NS_BIO_F'],
                 'NS_PRS_F'
             ],
-            '/DCIR_DCIRS/': [
+            '/produits/DCIR_DCIRS/': [
                 ['DA_PRA_R', 'DA_PRA_R'],
                 'IR_IMB_R'
             ],
             '/': [
                 '',
-                'production'
+                'production',
+                '/produits/'
             ],
         },
         sidebarDepth: 0,
